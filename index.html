@@ -24,8 +24,8 @@
         <img src="https://picsum.photos/seed/future/200/200" alt="Аватар — Bakaou Fofana" width="200" height="200">
 
     <nav class="menu-nav">
-        <a href="#Навыки">Навыки</a>
-        <a href="#Проекты">Проекты</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
         <a href="#tehnologii">Технологии</a>
         <a href="#prognozy">Прогнозы</a>
         <a href="#feedback">Связь</a>
@@ -33,7 +33,7 @@
     </header>
 
     <main>
-        <section id="Навыки">
+        <section id="skills">
             <h2>Навыки</h2>
             <ul>
                 <li>Создание концепт-артов</li>
@@ -42,105 +42,96 @@
                 <li>3D-визуализация</li>
             </ul>
         </section>
-
-        <section id="Проекты">
+<section id="projects">
     <h2>Проекты</h2>
     <div class="cartes-projets">
-        <div class="carte" style="overflow: hidden;">
-            <span class="texte-carte">Концепт "Вертикальный город 2075"</span>
-        </div>
-        <div class="carte" style="overflow: hidden;">
-            <span class="texte-carte">Нейроинтерфейс для творчества</span>
-        </div>
-        <div class="carte" style="overflow: hidden;">
-            <span class="texte-carte">Марсианская колония "Аврора"</span>
-        </div>
-        <div class="carte" style="overflow: hidden;">
-            <span class="texte-carte">ИИ-соавтор в дизайне</span>
-        </div>
+        <article class="carte" style="overflow: hidden;">
+              <h3 class="texte-carte">Концепт "Вертикальный город 2075"</h3>
+        </article>
+        <article class="carte" style="overflow: hidden;">
+            <h3 class="texte-carte">Нейроинтерфейс для творчества</h3>
+        </article>
+        <article class="carte" style="overflow: hidden;">
+            <h3 class="texte-carte">Марсианская колония "Аврора"</h3>
+        </article>
+        <article class="carte" style="overflow: hidden;">
+            <h3 class="texte-carte">ИИ-соавтор в дизайне</h3>
+        </article>
     </div>
 </section>
-
 
 
 <section id="tehnologii">
     <h2>Технологии будущего</h2>
     <div class="cartes-tech">
-        <div class="carte-tech">
+        <article class="carte-tech">
             <h3>Нейроинтерфейсы</h3>
             <p>Прямая связь мозг-компьютер для творческого процесса.</p>
             <p class="annee">Прогноз: 2032</p>
-        </div>
-        <div class="carte-tech">
+        </article>
+        <article class="carte-tech">
             <h3>Голографические дисплеи</h3>
             <p>Проектирование трёхмерных моделей прямо в воздухе.</p>
             <p class="annee">Прогноз: 2029</p>
-        </div>
-        <div class="carte-tech">
+        </article>
+        <article class="carte-tech">
             <h3>ИИ-соавторство</h3>
             <p>Нейросети как полноценные партнёры в дизайне.</p>
             <p class="annee">Прогноз: 2028</p>
-        </div>
-        <div class="carte-tech">
+        </article>
+        <article class="carte-tech">
             <h3>Биопечать сооружений</h3>
             <p>3D-печать зданий из живых материалов.</p>
             <p class="annee">Прогноз: 2040</p>
-        </div>
+        </article>
     </div>
 </section>
-
 
 <section id="prognozy">
     <h2>Прогнозы по сферам</h2>
     <div class="grid-prognozy">
-        <div class="bloc-prognoz">
+        <article class="bloc-prognoz">
             <h3>Транспорт</h3>
             <p>К 2035 году <mark>автономные дроны</mark> станут основным видом городской доставки.</p>
             <p class="probabilite">Вероятность: 78%</p>
-        </div>
-        <div class="bloc-prognoz">
+        </article>
+        <article class="bloc-prognoz">
             <h3>Медицина</h3>
             <p><mark>Персонализированная генная терапия</mark> станет доступной для массового пациента.</p>
             <p class="probabilite">Вероятность: 65%</p>
-        </div>
-        <div class="bloc-prognoz">
+        </article>
+        <article class="bloc-prognoz">
             <h3>Искусство</h3>
             <p><mark>Совместное творчество человека и ИИ</mark> станет нормой в дизайне и кино.</p>
             <p class="probabilite">Вероятность: 90%</p>
-        </div>
+        </article>
     </div>
 </section>
+       <aside>
+        <h2>Технология будущего</h2>
+        <p>Искусственный интеллект — я считаю, что именно эта технология изменит мир в ближайшие десятилетия.</p>
+    </aside>
 
-    </main>
+    <section id="feedback">
+        <h2>Обратная связь</h2>
+        <form action="#" method="post">
+             <label for="name">Имя</label><br>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя"><br><br>
 
-<aside>
-    <h2>Технология будущего</h2>
-    <p>Искусственный интеллект — я считаю, что именно эта технология изменит мир в ближайшие десятилетия.</p>
-</aside>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="example@mail.com"><br><br>
 
-<section id="feedback">
-    <h2>Обратная связь</h2>
-    <form action="#" method="post">
-         <label for="name">Имя</label><br>
-        <input type="text" id="name" name="name" placeholder="Введите ваше имя"><br><br>
+            <label for="message">Сообщение</label><br>
+            <textarea id="message" name="message" placeholder="Ваше сообщение..."></textarea><br><br>
 
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="example@mail.com"><br><br>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</main>
 
-        <label for="message">Сообщение</label><br>
-        <textarea id="message" name="message" placeholder="Ваше сообщение..."></textarea><br><br>
-
-        <button type="submit">Отправить</button>
-    </form>
-
-
-    
-</section>
-
-
-    <footer>
-        <p>&copy; 2026 Bakaou Fofana</p>
-    </footer>
+<footer>
+    <p>&copy; 2026 Bakaou Fofana</p>
+</footer>
 </body>
 
 
